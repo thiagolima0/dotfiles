@@ -6,11 +6,6 @@
     // Material Icon
     "workbench.iconTheme": "material-icon-theme",
   
-    // Prettier
-    "prettier.singleQuote": true,
-    "prettier.semi": false,
-    "prettier.arrowParens": "avoid",
-  
     // VSCode
     "workbench.statusBar.visible": true,
     "editor.minimap.enabled": false,
@@ -27,6 +22,11 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
+    
+    // BracketPair colorization
+   "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
+    
     "editor.tokenColorCustomizations": {
       "textMateRules": [
         {
