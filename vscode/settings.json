@@ -25,18 +25,8 @@
     
     // BracketPair colorization
    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs":"active"
+   "editor.guides.bracketPairs":"active"
     
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "support.class.component.html",
-          "settings": {
-            "foreground": "#569CD6"
-          }
-        }
-      ]
-    },
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
